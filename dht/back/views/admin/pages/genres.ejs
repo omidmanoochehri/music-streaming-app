@@ -1,0 +1,118 @@
+<div id="GENRES" class="container">
+    <div class="mt-custom-100">
+        <div class="modal fade edit-genre-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title mt-0" id="myLargeModalLabel">Add Genres</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-lg-6 p-2">
+                                    <input class="form-control" type="text" placeholder="Genre Name.."
+                                        id="genre-name-edit">
+                                </div>
+                                <div class="col-lg-6 p-2">
+                                    <!-- <div class="picker">
+                                        <input id="color-edit" class="form-control" type="color" value="#FFB61A">
+                                        <input id="hex-color-edit" class="form-control" type="text" autocomplete="off"
+                                            spellcheck="false">
+                                    </div> -->
+                                    <input type="file" id="updateCoverImg" name="cover"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">
+                            Close
+                        </button>
+                        <button id="save-genre-edit" type="button" class="btn btn-primary waves-effect waves-light">
+                            Save
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 py-5">
+            <div class="col-12">
+                <button class="btn addGenreModal btn-secondary" data-toggle="modal" data-target=".addGenresModal">Add
+                    Genres
+                </button>
+                <div class="modal fade addGenresModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title mt-0" id="myLargeModalLabel">Add Genres</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            </div>
+                            <div class="modal-body">
+                                <form enctype="multipart/form-data">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 p-2">
+                                                <input name="name" class="form-control" type="text"
+                                                    placeholder="Genre..." id="genreName">
+                                            </div>
+                                            <div class="col-lg-6 p-2">
+                                                <!-- <div class="picker">
+                                                    <input id="COLOR" class="form-control" type="color" value="#FFB61A">
+                                                    <input id="hexColor" class="form-control" type="text"
+                                                        autocomplete="off" spellcheck="false">
+                                                </div> -->
+                                                <input type="file" id="coverImg" name="cover"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">
+                                    Close
+                                </button>
+                                <button id="saveGenre" type="button" class="btn btn-primary waves-effect waves-light">
+                                    Save
+                                </button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            </div>
+        </div>
+        <div id="datatable_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="Genres" class="table table-bordered dt-responsive nowrap dataTable no-footer dtr-inline"
+                        style="border-collapse: collapse; border-spacing: 0px; width: 100%;" role="grid"
+                        aria-describedby="datatable_info">
+                        <thead>
+                            <tr role="row">
+                                <th class="sorting_asc" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1"
+                                    style="width: 191px;" aria-sort="ascending"
+                                    aria-label="Name: activate to sort column descending">Name
+                                </th>
+                                <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1"
+                                    style="width: 291px;" aria-label="Position: activate to sort column ascending">
+                                    Cover
+                                </th>
+                                <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1"
+                                    style="width: 291px;" aria-label="Position: activate to sort column ascending">
+                                    Edit
+                                </th>
+                                <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1"
+                                    style="width: 291px;" aria-label="Position: activate to sort column ascending">
+                                    Delete
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

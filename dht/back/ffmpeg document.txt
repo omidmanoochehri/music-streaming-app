@@ -1,0 +1,18 @@
+ffmpeg -f mp4 -i C:\Users\omano\Downloads\Video\test1.mp4  -vcodec libx264 -profile:v main -g 25 -r 25 -b:v 500k -keyint_min 250 -strict experimental -pix_fmt yuv420p -movflags empty_moov+default_base_moof -an -preset ultrafast -f mp4 tcp://localhost:9090
+
+ffmpeg -f mp4 -i C:\Users\omano\Downloads\Video\test2.mp4  -vcodec libvpx -b:v 3500k -r 25 -crf 10 -quality realtime -speed 16 -threads 8 -an -g 25 -f webm tcp://localhost:9090
+
+
+ffmpeg -f mp4 -i /tmp/test.mp4 -vcodec libvpx -b:v 3500k -r 25 -crf 10 -quality realtime -speed 16 -threads 8 -an -g 25 -f webm tcp://localhost:9090
+
+ffmpeg -ss 00:00:00 -re -i /tmp/test.mp3 -c:v libx264 -preset veryfast -tune zerolatency -c:a aac -strict -2 -ar 44100 -f mp4 tcp://localhost:9090
+
+
+ ok -> ffmpeg -framerate 25 -i https://www.zamzar.com/images/zamzar-logo.png -i "/var/www/dht/back/media/podcasts/Tehran Night #279 Rubsilent.mp3" -c:v libvpx -vf scale=1280:-2,format=yuv420p -strict -2 -c:a libopus -movflags empty_moov+default_base_moof -f webm tcp://localhost:9090
+
+
+ ok -> ffmpeg -f mp4 -i /var/www/test.mp4 -c:v libx264 -b:v 500k -strict -2 -c:a aac -b:a 128k -movflags empty_moov+default_base_moof -f mp4 tcp://localhost:9090
+
+
+
+ final -> ffmpeg -i ../desktop/test.mp4  -vcodec libx264 -profile:v main -g 25 -r 25 -b:v 500k -keyint_min 250 -strict experimental -pix_fmt yuv420p -movflags empty_moov+default_base_moof -preset ultrafast -f mp4 tcp://localhost:9090

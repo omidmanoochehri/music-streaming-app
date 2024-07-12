@@ -1,0 +1,180 @@
+.mt-custom-100 {
+    margin-top: 100px!important;
+}
+
+.podcasts-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.genreCoverTable {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+/* Picker */
+
+.picker {
+    display: flex;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Picker focus ring */
+
+.picker:focus-within {
+    outline: 1px dotted #212121;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+/* Inputs */
+
+
+/*input {*/
+
+
+/*    height: 50px;*/
+
+
+/*    border: none;*/
+
+
+/*    outline: 0;*/
+
+
+/*}*/
+
+
+/* Text field */
+
+input[type="text"] {
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+}
+
+
+/* Color picker */
+
+
+/*input[type="color"] {*/
+
+
+/*    width: 50px;*/
+
+
+/*    -webkit-appearance: none;*/
+
+
+/*}*/
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+
+/*input[type="color"]::-webkit-color-swatch {*/
+
+
+/*    border: none;*/
+
+
+/*    border-right: 1px solid rgba(0, 0, 0, 0.1);*/
+
+
+/*}*/
+
+.musicIcon {
+    font-size: 40px;
+}
+
+.coverItem {
+    width: 100%;
+    height: auto;
+}
+
+.coverItemDelete {
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .5);
+    color: #FFFFFF;
+}
+
+.podcastItemDelete {
+    position: absolute;
+    z-index: 9;
+    left: 15px;
+    top: 15px;
+    color: #000;
+}
+
+
+/*.MusicIconDelete:before{*/
+
+
+/*    position: absolute;*/
+
+
+/*    content: '';*/
+
+
+/*    top: 0;*/
+
+
+/*    left: 0;*/
+
+
+/*    width: 100%;*/
+
+
+/*    height: 200px;*/
+
+
+/*    background: #0c5460;*/
+
+
+/*    opacity: .4;*/
+
+
+/*}*/
+
+.prog-height {
+    height: 2rem !important;
+}
+
+
+/*.inputFileStyle{*/
+
+
+/*    border: 1px solid rgba(0,0,0,.2);*/
+
+
+/*    border-radius: 10px;*/
+
+
+/*    padding: 26px;*/
+
+
+/*    cursor: pointer;*/
+
+
+/*    display: block;*/
+
+
+/*}*/
+
+.uploadLabel {
+    cursor: pointer;
+}
+
+.fc-license-message {
+    display: none;
+}

@@ -1,0 +1,64 @@
+<div id="PODCASTSFILES" class="container">
+
+    <div class="mt-custom-100">
+        <div class="col-12 py-5">
+            <div class="col-12">
+                <button class="btn btn-secondary" data-toggle="modal" data-target=".addPodcastFileModal">Add Podcast
+                </button>
+                <div class="modal fade addPodcastFileModal" tabindex="-1" role="dialog"
+                     aria-labelledby="addPodcastFileModal"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <form id="uploadForm" enctype="multipart/form-data">
+
+                                <div class="modal-header">
+                                    <h5 class="modal-title mt-0" id="myLargeModalLabel">Add Podcast</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-12">
+
+                                        <h4 class="mt-0 header-title">Upload Podcast File</h4>
+
+                                        <div class="m-b-30 text-center">
+                                            <!-- Progress bar -->
+                                            <div class="progress prog-height">
+                                                <div class="progress-bar bg-dark"></div>
+                                            </div>
+                                            <input type="file" class="inputFileStyle" name="mediaFile" id="fileInput"
+                                                   hidden>
+                                            <div class="p-3">
+                                                <label for="fileInput" class="uploadLabel btn btn-outline-dark">Choose
+                                                    Podcast File</label>
+                                            </div>
+
+
+                                            <!-- Display upload status -->
+                                            <div id="uploadStatus"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <input class="btn btn-outline-dark" type="submit"
+                                           name="submit" value="Upload"/>
+                                    <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="dataPODCASTLIST text-center row">
+            <!--GENERATE BY JAVASCRIPT-->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+<div id="ARTISTS" class="container">
+    <div class="mt-custom-100">
+        <div class="col-12 py-5">
+            <div class="col-12">
+                <button class="btn btn-secondary" data-toggle="modal" data-target=".addArtistModal">Add Artist
+                </button>
+                <div id="addArtistModal" class="modal fade addArtistModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title mt-0" id="myLargeModalLabel">Add Artist</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            </div>
+                            <div class="modal-body">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 p-2">
+                                                <input name="name" class="form-control" type="text"
+                                                       placeholder="Artist Name.."
+                                                       id="artistName">
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">
+                                    Close
+                                </button>
+                                <button id="saveArtist" data-dismiss="modal" type="button" class="btn btn-primary waves-effect waves-light">
+                                    Save
+                                </button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            </div>
+        </div>
+        <div id="datatable_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="Artists"
+                           class="table table-bordered dt-responsive nowrap dataTable no-footer dtr-inline"
+                           style="border-collapse: collapse; border-spacing: 0px; width: 100%;" role="grid"
+                           aria-describedby="datatable_info">
+                        <thead>
+                        <tr role="row">
+                            <th class="sorting_asc" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1"
+                                style="width: 191px;" aria-sort="ascending"
+                                aria-label="Name: activate to sort column descending">Name
+                            </th>
+                            <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1"
+                                style="width: 291px;" aria-label="Position: activate to sort column ascending">
+                                Date
+                            </th>
+                            <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1"
+                                style="width: 113px;" aria-label="Salary: activate to sort column ascending">Delete
+                            </th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

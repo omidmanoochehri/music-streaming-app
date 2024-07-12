@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "b42470eb-2c1f-4939-b2f5-59f8214a3f4f",
+		"name": "Deep House Tehran",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getting podcasts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{DHT_API_URL}}/podcasts",
+					"host": [
+						"{{DHT_API_URL}}"
+					],
+					"path": [
+						"podcasts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getting podcasts by category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{DHT_API_URL}}/podcasts/house",
+					"host": [
+						"{{DHT_API_URL}}"
+					],
+					"path": [
+						"podcasts",
+						"house"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getting categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{DHT_API_URL}}/categories",
+					"host": [
+						"{{DHT_API_URL}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getting artists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{DHT_API_URL}}/artists",
+					"host": [
+						"{{DHT_API_URL}}"
+					],
+					"path": [
+						"artists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert new podcast",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "artist",
+							"value": "5fcd6b56050dd73d7892f065",
+							"type": "text"
+						},
+						{
+							"key": "genre",
+							"value": "5fcd39978157981f5022b949",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "test",
+							"type": "text"
+						},
+						{
+							"key": "was_lived",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "mediaFile",
+							"type": "file",
+							"src": "/C:/Users/Omid/Downloads/Music/Valayar (UpMusic).mp3"
+						},
+						{
+							"key": "coverFile",
+							"type": "file",
+							"src": "/C:/Users/Omid/Downloads/ok/A (1).jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{DHT_API_URL}}/podcasts",
+					"host": [
+						"{{DHT_API_URL}}"
+					],
+					"path": [
+						"podcasts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert new category",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Rock\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{DHT_API_URL}}/categories",
+					"host": [
+						"{{DHT_API_URL}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert new artist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Gholam\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{DHT_API_URL}}/artists",
+					"host": [
+						"{{DHT_API_URL}}"
+					],
+					"path": [
+						"artists"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "2151ab41-8830-4f47-9ffa-9faa0ef41cd5",
+			"key": "API_URL",
+			"value": "localhost:9000"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

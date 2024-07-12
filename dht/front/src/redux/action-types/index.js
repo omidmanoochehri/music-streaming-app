@@ -1,0 +1,13 @@
+export const SET_CATEGORIES = 'SET_CATEGORIES';
+export const SET_PODCASTS = 'SET_PODCASTS';
+export const SET_LIVE = 'SET_LIVE';
+export const ACTIVE_LIVE = 'ACTIVE_LIVE';
+export const DEACTIVE_LIVE = 'DEACTIVE_LIVE';
+export const SET_PATH = 'SET_PATH';
+export const SET_SEARCH = 'SET_SEARCH';
+export const SET_PODURL = 'SET_PODURL';
+export const PLAY_PODCAST = 'PLAY_PODCAST';
+export const SET_PARENT_PATH = 'SET_PARENT_PATH';
+export const SET_SELECTED_PODCAST = 'SET_SELECTED_PODCAST';
+export const SET_SELECTED_CAT = 'SET_SELECTED_CAT';
+export const SET_PLAYING_PODCAST = 'SET_PLAYING_PODCAST';

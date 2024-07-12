@@ -1,0 +1,70 @@
+<div id="ARTISTS" class="container">
+    <div class="mt-custom-100">
+        <div class="col-12 py-5">
+            <div class="col-12">
+                <button class="btn btn-secondary" data-toggle="modal" data-target=".addUserModal">Add User
+                </button>
+                <div id="addUserModal" class="modal fade addUserModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title mt-0" id="myLargeModalLabel">Add User</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-lg-6 p-2">
+                                            <input name="first_name" class="form-control" type="text" placeholder="First Name.." id="first_name" required>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <input name="last_name" class="form-control" type="text" placeholder="Last Name.." id="last_name" required>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <input name="username" class="form-control" type="text" placeholder="Username.." id="username" required>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <input name="email" class="form-control" type="email" placeholder="Email.." id="email">
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <input name="password" class="form-control" type="password" placeholder="Password.." id="password" required>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <input name="confirm_password" class="form-control" type="password" placeholder="Confirm Password.." id="confirm_password" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">
+                                    Close
+                                </button>
+                                <button id="saveUser" data-dismiss="modal" type="button" class="btn btn-primary waves-effect waves-light">
+                                    Save
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+            </div>
+        </div>
+        <div id="datatable_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="usersTable" class="table table-bordered dt-responsive nowrap dataTable no-footer dtr-inline" style="border-collapse: collapse; border-spacing: 0px; width: 100%;" role="grid" aria-describedby="datatable_info">
+                        <thead>
+                            <tr role="row">
+                                <th>Username</th>
+                                <th>Created Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

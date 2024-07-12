@@ -1,0 +1,475 @@
+{
+	"_id": {
+		"$oid": "5fbb90e55cb347414cb32088"
+	},
+	"name": "LLDPE/500026",
+	"producer": {
+		"$oid": "5fbb0f928c618e341055a22f"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10ea1ba8ad11fcab594c"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:37:25.592Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:37:25.592Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb90fc5cb347414cb32089"
+	},
+	"name": "HDPE/P600",
+	"producer": {
+		"$oid": "5fbb0f9e8c618e341055a230"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:37:48.95Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:37:48.95Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91145cb347414cb3208a"
+	},
+	"name": "SPVC/1300F",
+	"producer": {
+		"$oid": "5fbb0fa38c618e341055a231"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:38:12.603Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:38:12.603Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91235cb347414cb3208b"
+	},
+	"name": "EPVC/1302",
+	"producer": {
+		"$oid": "5fbb0f728c618e341055a22e"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:38:27.797Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:38:27.797Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb912d5cb347414cb3208c"
+	},
+	"name": "EPVC/1202",
+	"producer": {
+		"$oid": "5fbb0f728c618e341055a22e"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:38:37.796Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:38:37.796Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91395cb347414cb3208d"
+	},
+	"name": "R200",
+	"producer": {
+		"$oid": "5fbb0fa88c618e341055a232"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:38:49.246Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:38:49.246Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91455cb347414cb3208e"
+	},
+	"name": "RP2400",
+	"producer": {
+		"$oid": "5fbb0f9e8c618e341055a230"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:39:01.554Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:39:01.554Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb914e5cb347414cb3208f"
+	},
+	"name": "J740",
+	"producer": {
+		"$oid": "5fbb0fa88c618e341055a232"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:39:10.89Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:39:10.89Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91575cb347414cb32090"
+	},
+	"name": "J550S",
+	"producer": {
+		"$oid": "5fbb0fb18c618e341055a233"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:39:19.325Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:39:19.325Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb915f5cb347414cb32091"
+	},
+	"name": "0150 W-NP",
+	"producer": {
+		"$oid": "5fbb0ff3b158763a3045c457"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:39:27.164Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:39:27.164Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91665cb347414cb32092"
+	},
+	"name": "775",
+	"producer": {
+		"$oid": "5fbb0ff3b158763a3045c457"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:39:34.313Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:39:34.313Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91765cb347414cb32093"
+	},
+	"name": "321T",
+	"producer": {
+		"$oid": "5fbb0ffeb158763a3045c458"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f81ba8ad11fcab594f"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:39:50.469Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:39:50.469Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91845cb347414cb32094"
+	},
+	"name": "HI425",
+	"producer": {
+		"$oid": "5fbb103eb158763a3045c45b"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:40:04.538Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:40:04.538Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91915cb347414cb32095"
+	},
+	"name": "LC670",
+	"producer": {
+		"$oid": "5fbb0f728c618e341055a22e"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:40:17.363Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:40:17.363Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91975cb347414cb32096"
+	},
+	"name": "LC565",
+	"producer": {
+		"$oid": "5fbb0f728c618e341055a22e"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:40:23.391Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:40:23.391Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb919d5cb347414cb32097"
+	},
+	"name": "P6",
+	"producer": {
+		"$oid": "5fbb0f728c618e341055a22e"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:40:29.033Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:40:29.033Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91aa5cb347414cb32098"
+	},
+	"name": "V430",
+	"producer": {
+		"$oid": "5fbb0fb18c618e341055a233"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:40:42.162Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:40:42.162Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91b65cb347414cb32099"
+	},
+	"name": "7350M",
+	"producer": {
+		"$oid": "5fbb1046b158763a3045c45c"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f81ba8ad11fcab594f"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:40:54.403Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:40:54.403Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91c45cb347414cb3209a"
+	},
+	"name": "100U",
+	"producer": {
+		"$oid": "5fbb0fb18c618e341055a233"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:41:08.192Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:41:08.192Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91d65cb347414cb3209b"
+	},
+	"name": "N109",
+	"producer": {
+		"$oid": "5fbb0f728c618e341055a22e"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:41:26.109Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:41:26.109Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91e15cb347414cb3209c"
+	},
+	"name": "BOTTLE",
+	"producer": {
+		"$oid": "5fbb1050b158763a3045c45d"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:41:37.749Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:41:37.749Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91ee5cb347414cb3209d"
+	},
+	"name": "BOTTLE",
+	"producer": {
+		"$oid": "5fbb1055b158763a3045c45e"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb11021ba8ad11fcab5950"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:41:50.341Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:41:50.341Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb91fe5cb347414cb3209e"
+	},
+	"name": "TEXTILE",
+	"producer": {
+		"$oid": "5fbb105cb158763a3045c45f"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:42:06.417Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:42:06.417Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb92085cb347414cb3209f"
+	},
+	"name": "CS311",
+	"producer": {
+		"$oid": "5fbb1061b158763a3045c460"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb10f01ba8ad11fcab594d"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:42:16.817Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:42:16.817Z"
+	},
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5fbb92155cb347414cb320a0"
+	},
+	"name": "R298",
+	"producer": {
+		"$oid": "5fbb10a3b158763a3045c463"
+	},
+	"sourceCountry": {
+		"$oid": "5fbb11021ba8ad11fcab5950"
+	},
+	"created_at": {
+		"$date": "2020-11-23T10:42:29.136Z"
+	},
+	"updated_at": {
+		"$date": "2020-11-23T10:42:29.136Z"
+	},
+	"__v": 0
+}

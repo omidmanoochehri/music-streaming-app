@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio id="music" preload="all">
+        <source src="http://localhost:7000">
+    </audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io-stream/0.9.1/socket.io-stream.js"></script>
+    <script>
+        var audioDOM = document.createElement("audio");
+        // audioDOM.src = "stream.mp3"
+        // audioDOM.play();
+        // audioDOM.addEventListener("buffered", function (data) {
+        //     console.log(data)
+        // })
+        AudioContext = window.AudioContext || window.webkitAudioContext;
+        const audioContext = new AudioContext();
+        var player = new window.Audio();
+
+        // fetch("http://localhost:7000")
+        //     .then(response => response.blob())
+        //     .then(function (blob) {
+        //         console.log(blob)
+        //     });
+
+        const socket = io();
+        // var stream = ss.createStream();
+        socket.emit("track")
+        // socket.on('track', (data) => {
+
+        ss(socket).on('track-stream', function (stream, data) {
+            console.log(stream)
+            // const audioBufferChunk = await audioContext;
+            // player.src = window.URL.createObjectURL(data);
+            // player.play();
+
+            var blob = new Blob([stream], { type: "audio/mp3" });
+            audioDOM.src = window.URL.createObjectURL(stream);
+            // audioDOM.src = data
+            audioDOM.play();
+        });
+
+        // });
+
+
+
+
+    </script>
+</body>
+
+</html>
